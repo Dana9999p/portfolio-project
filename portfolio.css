@@ -1,4 +1,7 @@
 body {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
     margin: 0;
     font-family: Quicksand;
     background-image: url('https://static.vecteezy.com/system/resources/previews/002/401/657/non_2x/abstract-wavy-smooth-lines-pattern-free-vector.jpg');
@@ -39,6 +42,7 @@ a {
 }
 .container {
     display: flex;
+    flex: 1;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -89,4 +93,16 @@ a {
     display: flex;
     justify-content: center;
     margin: 20px;
+}
+.footer-container {
+
+    font-size: 1rem;
+    font-weight: 1000;
+    color: black;
+    text-shadow: 
+      -1px -1px 0 white,
+       1px -1px 0 white,
+      -1px  1px 0 white,
+       1px  1px 0 white;
+
 }
