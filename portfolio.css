@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: Quicksand;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/002/401/657/non_2x/abstract-wavy-smooth-lines-pattern-free-vector.jpg');
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px 20px;
+    max-width: 1300px;
+    font-size: 1.5rem;
+    font-weight: 1000;
+    color: black;
+    text-shadow: 
+      -1px -1px 0 white,
+       1px -1px 0 white,
+      -1px  1px 0 white,
+       1px  1px 0 white;
+}
+.title-header {
+    padding: 0 20px;
+}
+.nav-container ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    
+}
+.content-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 1fr;
+    max-width: 1300px;
+}
+.category-container {
+    background-color: white;
+    padding: 20px;
+    border: 2px black dashed;
+}
+.content {
+    display: flex;
+    gap: 30px;
+
+}
+.category-container img {
+    display: flex;
+    padding-top: 40px;
+}
+.category-container .text {
+    padding-top: 30px;
+}
+.empty-container {
+    background-color: black;
+    text-align: center;
+
+
+}
+.empty-container .text {
+    color: white;
+    padding-top: 20px;
+}
+.empty-container img {
+    width: 230px;
+    height: 250px;
+    border: 10px white dotted;
+
+}
+.empty-container .content {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
