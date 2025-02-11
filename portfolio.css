@@ -33,6 +33,10 @@ img {
     gap: 20px;
     padding: 20px;
 }
+a {
+    text-decoration: none;
+    color: inherit;
+}
 .container {
     display: flex;
     flex-direction: column;
