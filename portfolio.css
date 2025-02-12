@@ -115,3 +115,7 @@ a {
 .green { 
     background-image: url('https://i.pinimg.com/736x/53/e9/a0/53e9a0e84f1cfb7c93abb4119efe66e7.jpg');
 }
+.quote-container {
+    position: fixed;
+    bottom: 0px;
+}
