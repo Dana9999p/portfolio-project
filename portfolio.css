@@ -106,3 +106,12 @@ a {
        1px  1px 0 white;
 
 }
+.light { 
+    background-image: url('https://media.istockphoto.com/id/1331291706/vector/seamless-abstract-pattern-with-curved-lines-a-maze.jpg?s=612x612&w=0&k=20&c=7J94OYKxgzRSu561m_xzjwm6fbWpPoObG_p3OOMS1oQ=')
+}
+.dark { 
+    background-image: url('https://img.freepik.com/free-vector/white-round-shape-pattern-vector-seamless-pattern_1409-4453.jpg?semt=ais_hybrid');
+}
+.green { 
+    background-image: url('https://i.pinimg.com/736x/53/e9/a0/53e9a0e84f1cfb7c93abb4119efe66e7.jpg');
+}
