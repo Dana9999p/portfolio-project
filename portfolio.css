@@ -119,3 +119,17 @@ a {
     position: fixed;
     bottom: 0px;
 }
+@media only screen and (max-width: 768px) {
+    .content-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .header-container {
+        display: unset;
+    }
+
+}
+@media only screen and (max-width: 425px) {
+    .container {
+        display: unset;
+    }
+}
